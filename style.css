@@ -1,0 +1,216 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,700;1,500&display=swap');
+  
+
+ @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,700;1,500&display=swap');
+
+
+
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.brand-logo{
+    margin-left: 60px;
+    margin-top: 18px;
+    display: flex;
+}
+.name1{
+    font-family: 'Roboto', sans-serif;
+    margin-top: 53px;
+    margin-left: 438px;
+    font-size: 33px;
+    letter-spacing: -1px;
+    line-height: 68px;
+    color: #3c4043;
+}
+
+.header{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    margin-top: -115px;
+    height: 4rem;
+    padding-left: 0rem;
+    padding-right: 2rem;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+     /* margin-top: -59px; */
+     border-bottom: 1px solid black;
+}
+.brand-symbol{
+    display :flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(255, 255, 255);
+    width: 138px;
+    height:inherit;
+    margin-right: 80px;
+    margin-top: -2px;
+ 
+}
+.name1{
+    display: flex;
+    /* text-align: center; */
+    position: relative;
+    left: 163px;
+    font-size: 23px;
+}
+.name2{
+     font-family: 'Roboto', sans-serif;
+     margin-left: 585px;
+    font-size: 31px;
+    letter-spacing: -2px;   
+  color:  #188038;;
+}
+.sidebar2 h3{
+    font-family: 'Roboto', sans-serif;
+    color: #6D7072;
+    font-size: 11px;
+    /* background-color: black; */
+ 
+    height: 48px;
+    cursor: pointer;
+    line-height:24px ;
+}
+.name-container{
+    margin-top: 115px;
+}
+.headerbottom{
+    display: flex;
+    
+    margin-top: 96px;
+}
+.sidebar2{
+    font-family: 'Roboto', sans-serif;
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* justify-content: space-between; */
+    margin-left:20px;
+    font-size: 16px;
+    width: 300px;
+    height: 150px;
+    letter-spacing:0px;
+    line-height: 38px;
+    /* background-color:rgb(119, 26, 26); */
+    padding-bottom: 20px    ;
+    }
+
+.sidebar2 input{
+    
+    margin-top: 0.5rem;
+    margin-right: 0.5rem;
+}
+.photos{
+    margin-left: 10px;
+    width: 335px;
+    height: 420px;
+    background-color:rgb(248,249,250);
+}
+.disply{
+    margin-left: 100px;
+    display: flex;
+    width: 1100px;
+   color: rgb(60,64,67);
+}
+.disply img{
+    width: 250px;
+    margin-top: 80px;
+    margin-left: 25px;
+    
+}
+.letter{
+    display: flex;
+    background-color: gray  ;
+    margin-left:431px;
+    margin-right: 62px;
+
+}
+.name{
+    margin-top: 6rem;
+    font-size: 1rem;
+}
+.disply3{
+    margin-left: 420.5px;
+    margin-top: 100px;
+    display: flex;
+    width: 1100px;
+   color: rgb(60,64,67); 
+}
+.disply3 img{
+    width: 250px;
+    margin-top: 80px;
+    margin-left: 25px;
+}
+.disply4{
+display: flex;
+margin-top: 100px;
+margin-left: 420px;}
+.disply4 img{
+    width: 250px;
+    margin-top:85px;
+    margin-left:40px ;
+}
+
+.footer{
+    /* background-color: red; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap:wrap ;
+    align-items: center;
+    margin-top: 120px;
+    margin-left: 860px;
+    margin-bottom: 80px;
+    height: 120px;
+    width: 300px;
+    font: bolder;
+    /* background-color: aquamarine; */
+
+
+}
+hr{ 
+    margin-left: 8%;
+    width: 82%;
+}
+.last-footer{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin-left: 8%;
+    /* background-color: red; */
+    width: 82%;
+    height: 2.5rem;
+    font-size: 1rem;
+}
+.soc{
+    /* background-color: blue; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 10rem;
+    height: inherit;
+
+}
+.service img{
+    margin-right: 5px;
+    margin-bottom: -5px;
+    width: 1.8rem;
+    height: 1.3rem;
+    
+}
+.service a{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    font-size: 13px;
+    color: #000;
+}
+
+.service{
+    opacity: 80%;
+    display: flex;
+    justify-content: space-between;
+    width: 45%;
+}
